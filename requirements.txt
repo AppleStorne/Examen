@@ -1,0 +1,6 @@
+blessed
+pillow
+numpy
+matplotlib
+
+PyQt6==6.7.1
