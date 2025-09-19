@@ -73,4 +73,4 @@ class Triangulo(FiguraGeometrica):
             return math.sqrt(s * (s - self.lado1) * (s - self.lado2) * (s - self.lado3))
 
     def perimetro(self):
-        return self.lado1 + self.lado2 + self.lado3
+        return self.lado1 + self.lado2 + self.base
