@@ -59,7 +59,7 @@ def main():
             figura.mostrar_resultados()
 
         elif opcion == '5':
-            print(term.green("Saliendo del programa"))
+            print(term.green("Saliendo de este programa"))
             break
 
         else:
