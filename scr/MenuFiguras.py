@@ -27,11 +27,6 @@ def main():
             figura = Cuadrado(lado)
             figura.mostrar_resultados()
 
-        elif opcion == '3':
-            print(term.red("¿Cómo desea calcular el área del triángulo?"))
-            print(term.pink("a) Base y altura"))
-            print("b) Tres lados (fórmula de Herón)")
-            sub_opcion = input(term.yellow("Seleccione opción (a/b): ")).lower()
 
             if sub_opcion == 'a':
                 base = float(input(term.cyan("Ingrese la base: ")))
